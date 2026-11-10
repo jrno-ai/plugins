@@ -1,0 +1,16 @@
+{
+  "name": "jrno-prod",
+  "owner": {
+    "name": "JRNO"
+  },
+  "metadata": {
+    "description": "Send notes, ideas, or research to JRNO. Your assistant selects and cleans the useful information before saving it to your workspace."
+  },
+  "plugins": [
+    {
+      "name": "jrno",
+      "source": "./plugins/jrno",
+      "description": "Send notes, ideas, or research to JRNO. Your assistant selects and cleans the useful information before saving it to your workspace."
+    }
+  ]
+}

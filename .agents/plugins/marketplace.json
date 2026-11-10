@@ -1,0 +1,20 @@
+{
+  "name": "jrno-prod",
+  "interface": {
+    "displayName": "JRNO (prod)"
+  },
+  "plugins": [
+    {
+      "name": "jrno",
+      "source": {
+        "source": "local",
+        "path": "./plugins/jrno"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

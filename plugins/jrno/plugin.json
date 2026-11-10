@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jrno",
+  "description": "Send notes, ideas, or research to JRNO. Your assistant selects and cleans the useful information before saving it to your workspace.",
+  "author": {
+    "name": "JRNO"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/jrno-help/SKILL.md"
+    }
+  },
+  "version": "1.0.0-content-9bb07bb1549afe1c"
+}
